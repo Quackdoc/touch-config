@@ -1,0 +1,37 @@
+* {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the entire bar */
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+#clock,
+#custom-notifications,
+#bluetooth,
+#network,
+#pulseaudio,
+#battery 
+{
+    background-color: rgba(0, 0, 0, 0.7); /* More opaque black background for each item */
+    border-radius: 3px; /* Rounded corners */
+    padding: 5px; /* Padding around each item */
+    margin: 2px; /* Small margin between items */
+    min-width: 20px;
+}
+
+#battery 
+#custom-osk { margin-right: 10px;
+}
+
+#custom-osk {
+  min-width: 30px;
+}
+#custom-left {
+  min-width: 60px;
+}
+#custom-right {
+  min-width: 60px;
+}
+#custom-center {
+  min-width: 60px;
+}
